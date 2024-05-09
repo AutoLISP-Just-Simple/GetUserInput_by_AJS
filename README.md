@@ -1,11 +1,10 @@
 Begin with GetUserInput functions in AutoCAD dotNet (c#)
 Using:
+
         [CommandMethod("GetPointWCS", CommandFlags.Modal)]
         public void GetPointWCS()
         {
             Document doc = Application.DocumentManager.MdiActiveDocument;
-
-            if (doc != null)
             {
                 Editor ed = doc.Editor;
 
